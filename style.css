@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: blue;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 2px solid aliceblue;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 8px 16px;
+    margin-left: 21px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    outline: none;
+    font-size: 14px;
+    padding: 6px 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+    background: darkblue;
+    color: aliceblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    background: aqua;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: lightskyblue;
+    color: aliceblue;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.anchors {
+    display: flex;
+    flex-direction: column;
+}
+
+.partnership, .about, .support, a {
+    text-align: center;
+    font-size: 14px;
+    color: aliceblue;
+    padding: 4px;
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: aliceblue;
+}
